@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Plugin Name: Cookie Plugin
+ */
 
 add_filter("gform_field_value_hfref", "populate_hfref");
 function populate_hfref() {
